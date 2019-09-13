@@ -1,0 +1,48 @@
+[
+    {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "resource": {
+            "language": "en",
+            "chars": "<p>note note</p>",
+            "@type": "dctypes:Text",
+            "format": "text/html"
+        },
+        "@type": "oa:Annotation",
+        "@id": "ae732251-2539-4d88-a966-2116c2451c11",
+        "motivation": "sc:painting",
+        "on": {
+            "within": {
+                "@id": "https://readux.ecdsdev.org/iiif/v2/81285178.4931.emory.edu/manifest",
+                "@type": "sc:Manifest"
+            },
+            "@type": "oa:SpecificResource",
+            "full": "https://readux.ecdsdev.org/iiif/v2/81285178.4931.emory.edu/canvas/81285178.4931.emory.edu$7",
+            "selector": {
+                "value": "xywh=318,358,742,76",
+                "item": {
+                    "startSelector": {
+                        "refinedBy": {
+                            "start": 0,
+                            "@type": "TextPositionSelector"
+                        },
+                        "value": "//*[@id='21191312-9c5b-488e-b287-d8d0b4cbb0f6']",
+                        "@type": "XPathSelector"
+                    },
+                    "endSelector": {
+                        "refinedBy": {
+                            "end": 9,
+                            "@type": "TextPositionSelector"
+                        },
+                        "value": "//*[@id='f4585f57-3bf0-4cec-a4ee-ac61a46b6e0d']",
+                        "@type": "XPathSelector"
+                    },
+                    "@type": "RangeSelector"
+                },
+                "@type": "oa:FragmentSelector"
+            }
+        },
+        "annotatedBy": {
+            "name": "Sara Palmer"
+        }
+    }
+]

@@ -1,0 +1,54 @@
+---
+permalink: pretty
+title: 'Hadriani Iunii medici Emblemata, ad D. Arnoldum Cobelium : eiusdem Aenigmatum
+  libellus, ad D. Arnoldum Rosenbergum'
+tagline: an annotated digital edition
+description: An annotated digital edition created with <a href="http://readux.library.emory.edu/">Readux</a>
+url: 
+baseurl: ''
+gems:
+- jekyll-sitemap
+author:
+  name: An Author
+  url: 
+  email: 
+  twitter: 
+version: 0.7
+homepage_image: https://iiif.archivelab.org/iiif//81285178.4931.emory.edu$1/full/full/0/default.jpg
+show_annotation_author: true
+source_info:
+  title: 'Hadriani Iunii medici Emblemata, ad D. Arnoldum Cobelium : eiusdem Aenigmatum
+    libellus, ad D. Arnoldum Rosenbergum'
+  via_readux: true
+publication_info:
+  title: 'Hadriani Iunii medici Emblemata, ad D. Arnoldum Cobelium : eiusdem Aenigmatum
+    libellus, ad D. Arnoldum Rosenbergum'
+  date: '2019'
+  editors: []
+image_size:
+  page:
+    width: 2325
+    height: 1496
+collections:
+  annotations:
+    output: true
+    permalink: "/annotations/:path/"
+  volume_pages:
+    output: true
+    permalink: "/pages/:path/"
+defaults:
+- scope:
+    path: ''
+    type: volume_pages
+  values:
+    layout: volume_page
+    short_label: p.
+    deep_zoom: false
+    extra_js:
+    - volume-page.js
+    - hammer.min.js
+- scope:
+    path: ''
+    type: annotations
+  values:
+    layout: annotation
